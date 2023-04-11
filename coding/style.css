@@ -1,0 +1,335 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    overflow: auto;
+    white-space: inherit;
+    height: 100%;
+    width: 100%;
+}
+
+.image123{
+    z-index: -1;
+    height: 743px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    position: absolute;
+}
+
+h2{
+    color: rgb(255, 255, 255);
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+    letter-spacing: 4px;
+}
+
+span{
+    text-align: center;
+    color: rgb(145, 255, 0);
+}
+
+.artikal1{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.glass{
+    display: flex;
+    position: absolute;
+    color: white;
+    border-radius: 5px;
+    width: 1340px;
+    height: 580px;
+    top: 80px;
+    left: 170px;
+    background: rgba(113, 113, 113, 0.5);
+}
+
+.topbar{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: auto;
+    height: 60px;
+    background: rgba(113, 113, 113, 0.5);
+    color: rgb(255, 255, 255);
+    border: 2px solid black;
+}
+
+.sidebardiv{
+    height: auto;
+    max-height: max-content;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    margin-top: 10%;
+}
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    height: 100%;
+    width: 10%;
+    background: rgba(113, 113, 113, 0.5);
+}
+
+button{
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.bottombar{
+    display: flex;
+    position: absolute;
+    margin-top: 208px;
+    justify-content: center;
+    height: 30px;
+    width: 100%; 
+    background: rgba(113, 113, 113, 0.5);
+    color: rgb(255, 255, 255);
+    border: 2px solid black;
+    text-shadow: 3px 3px black;
+    letter-spacing: 2px;
+    text-indent:  25px;
+}
+
+h3{
+    padding-left: 5px;
+}
+
+.home {
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.home:hover {
+  background-color: #fff;
+}
+
+.home:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .home {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
+
+
+.about {
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.about:hover {
+  background-color: #fff;
+}
+
+.about:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .about {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
+
+.contact {
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.contact:hover {
+  background-color: #fff;
+}
+
+.contact:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .contact {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
+
+.Wine {
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.Wine:hover {
+  background-color: #fff;
+}
+
+.Wine:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .Wine {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
+
+
+.artikal12{
+    display: flex;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+.artikal22{
+    display: flex;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border: 3px solid black;
+    border-radius: 5px;
+    left: 300px;
+    top: 280px;
+    margin-left: 50px;
+}
+.artikal32{
+    display: flex;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border: 3px solid black;
+    border-radius: 5px;
+    left: 600px;
+    margin-left: 100px;
+}
+.artikal42{
+    display: flex;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border: 3px solid black;
+    border-radius: 5px;
+    left: 900px;
+    top: 280px;
+    margin-left: 140px;
+}
+
+.h31{
+    display: flex;
+    position: absolute;
+    top: 320px;
+    text-align: center;
+    max-width: 300px;
+    text-shadow: 3px 3px black;
+}
+.h32{
+    display: flex;
+    position: absolute;
+    top: 20px;
+    left: 350px;
+    text-align: center;
+    max-width: 300px;
+    text-shadow: 3px 3px black;
+
+}
+.h33{
+    display: flex;
+    position: absolute;
+    top: 320px;
+    left: 700px;
+    text-align: center;
+    max-width: 300px;
+    text-shadow: 3px 3px black;
+
+}
+.h34{
+    display: flex;
+    position: absolute;
+    top: 20px;
+    left: 1050px;
+    text-align: center;
+    max-width: 300px;
+    text-shadow: 3px 3px black;
+
+}
+
+
+
+
+
